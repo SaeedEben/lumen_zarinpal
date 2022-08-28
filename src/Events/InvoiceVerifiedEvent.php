@@ -32,5 +32,6 @@ class InvoiceVerifiedEvent
         $this->receipt = $receipt;
         $this->driver  = $driver;
         $this->invoice = $invoice;
+
     }
 }
